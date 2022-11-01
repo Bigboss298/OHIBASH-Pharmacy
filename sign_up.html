@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <div align="center" class="form1">
+            <div>
+                <img src="./ohibashnobg.png" width="100em" alt=""> <br>
+                <span><b>Pharmaceutical</b></span>
+            </div>
+            <h3>Create Account!</h3>
+            <input type="text" placeholder=" Firstname"> <br><br>
+            <input type="text" placeholder=" Lastname"> <br><br>
+            <input type="email" placeholder="Email"> <br><br>
+            <input type="password" placeholder="Password" > <br><br>
+            
+        </div>
+        <input type="button" value="Create" class="createbtn">
+    </form>
+    <p class="haveacct">Already have an account ? Sign in
+        <span onclick="openLog()" class="here">here</span>
+
+    </p>
+    <div class="login" id="mylogin" align="center">
+        
+        <div>
+            <a href="javascript:void(0)" class="closebtn" 
+                    onclick="closeLog()"> &times; </a>
+            <img src="./ohibashnobg.png" width="100em" alt=""> <br>
+            <span><b>Pharmaceutical</b></span>
+            <h3>Welcome!</h3>
+            <p>
+                Sign in to your account
+            </p>
+            <input type="text" placeholder="Name or Email"> <br><br>
+            <input type="password" placeholder="Password"> <br><br>   
+        </div>
+            <button type="submit" class="loginbtn">Sign in</button>
+    </div>
+            
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+
+/*     Hambugger menu          */
+.ham{
+    cursor: pointer;
+}
+/*                For the side navigation              */
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(219, 7, 7);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+
+}
+.sidenav img{
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    
+}
+.sidenav a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: grey;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+ hr{
+    width: 80%;
+ }
+
+/*               For the Header Bar             */
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+.sticky +  .container2{
+    padding-top: 60px;
+}
+
+/*                  first content          */
+#first{
+    height: 50vh;
+    background-image: url(./first.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*              light texts                */
+.trusted{
+    font-weight: lighter;
+}
+.upload{
+    font-weight: lighter;
+}
+
+/*              Email for prescription                */
+.mail{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+}
+.files{
+    background-color: rgb(230, 222, 222);
+    font-size: smaller;
+}
+#whatsapp{
+    position: fixed;
+    z-index: 3;
+    top: 70%;
+    left: 70%;
+    background-color: rgb(8, 141, 90);
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 3px 3px 5px rgb(53, 53, 53);
+}
+/*                       Shop Section                */
+.drugsbar{
+    position: relative;
+    top: -7em;
+    height: 4em;
+}
+
+#shop{
+    font-weight: lighter;
+}
+#shop2{
+    height: 50vh;
+    background-image: linear-gradient(180deg, rgba(255, 249, 249, 0.459) 80%, rgba(209, 202, 202, 0.918)0%), url(./istockphoto-1019134602-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*                   Hepatitis Section            */
+#hepatitis{
+    font-weight: lighter;
+}
+
+/*          signup form                */
+.form1{
+    color: rgb(219, 7, 7);
+}
+.form1 input{
+    width: 70%;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-bottom: 12px;
+}
+.createbtn{
+    padding: 4px;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: absolute;
+    left: 15%;
+    background-color: rgb(219, 7, 7);
+    color: #fff;
+    border: none;
+
+}
+/*               login form                   */  
+.login{
+    height: 70%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 11%;
+    background-color: #fff;
+    box-shadow: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    color: rgb(219, 7, 7);
+    
+}
+.here{
+    cursor: pointer;
+}
+.login input{
+    width: 70%;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-bottom: 12px;
+}
+.login a{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(219, 7, 7);
+}
+.login button{
+    color: #fff;
+    background-color: rgb(219, 7, 7);
+    border: none;
+    padding: 2px;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: absolute;
+    left: 15%;
+    
+}
+.haveacct{
+    padding-top: 10%;
+}
+
+.haveacct span{
+    color: rgb(219, 7, 7);
+}
+
+
+/*                 MEDIA QUERIES            */
+
+/*               Tablets and co             */
+
+/*               Small Screen Tablets        */
+
+@media (min-width: 576px) {
+    /*                  first content          */
+#first{
+    height: 90vh;
+    background-image: url(./first.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*                       Shop Section                */
+
+#shop2{
+    height: 70vh;
+    background-image: linear-gradient(180deg, rgba(255, 249, 249, 0.459) 80%, rgba(209, 202, 202, 0.918)0%), url(./istockphoto-1019134602-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*                       Shop Section               */
+
+ }
+
+
+ @media (min-width: 768px) {
+
+/*       Large Screen Tablet          */
+
+
+.leftup{
+    position: relative;
+    top: -220px;
+    left: 450px;
+}
+#first{
+    height: 70vh;
+}
+ }
+
+ @media (min-width: 990px) {
+
+ #shop2{
+    height: 90vh;
+    background-image: linear-gradient(180deg, rgba(255, 249, 249, 0.459) 80%, rgba(209, 202, 202, 0.918)0%), url(./istockphoto-1019134602-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.leftup{
+    position: relative;
+    top: -20px;
+    left: 600px;
+}
+.hepatitis{
+    position: absolute;
+    left: 30em;
+    top: 95em;
+}
+#trusted{
+    height: 55vh;
+}
+#first{
+    height: 100vh;
+    background-image: url(./first.jpg);
+    background-size: 90%;
+    background-position: center;
+}
+.form1 input{
+    width: 50%;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-bottom: 12px;
+}
+.createbtn{
+    padding: 4px;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: absolute;
+    left: 25%;
+    background-color: rgb(219, 7, 7);
+    color: #fff;
+    border: none;
+
+}
+.haveacct{
+    padding-top: 10%;
+    text-align: center;
+}
+.login{
+    height: 70%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 30%;
+    background-color: #fff;
+    box-shadow: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    color: rgb(219, 7, 7);
+    
+}
+.firstfoot{
+    position: relative;
+    left: -40%;
+}
+.secondfoot{
+    position: absolute;
+    top: 184em;
+    left: 50em;
+}
+.thirdfoot{
+    position: absolute;
+    top: 184em;
+    left: 80em;
+}
+.termsco{
+    padding-left: 25em;
+}
+#whatsapp{
+    position: fixed;
+    z-index: 3;
+    top: 80%;
+    left: 90%;
+    background-color: rgb(8, 141, 90);
+    border-radius: 50%;
+    padding: 15px;
+}
+.logohome{
+    width: 5em;
+    height: 3em;
+}
+}
+
+@media (min-width: 1200px) {
+    /*        Laptops and bigger ones      */
+    
+    .leftup{
+        position: relative;
+        top: -220px;
+        left: 700px;
+    }
+
+    .hepatitis{
+        position: absolute;
+        left: 700px;
+        top: 94.5em;
+    }
+    #trusted{
+        height: 50vh;
+    }
+}

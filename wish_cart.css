@@ -1,0 +1,25 @@
+/*.secondfoot{
+    position: absolute;
+    top: 179em;
+    left: 50em;
+}
+.thirdfoot{
+    position: absolute;
+    top: 179em;
+    left: 80em;
+}*/
+
+
+@media (min-width: 990px) {
+    /*.secondfoot{
+    position: absolute;
+    top: 179em;
+    left: 50em;
+}
+.thirdfoot{
+    position: absolute;
+    top: 179em;
+    left: 80em;
+}*/
+    
+}
