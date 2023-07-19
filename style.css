@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden
+}
 /*     Hambugger menu          */
 .ham{
     cursor: pointer;
